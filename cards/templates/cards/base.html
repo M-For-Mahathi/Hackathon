@@ -1,0 +1,21 @@
+<html lang="en">
+
+<head>
+    <title>Flashcards</title>
+</head>
+
+<body>
+    <header>
+        <h1>Flashcards App</h1>
+        {% include "cards/navigation.html" %}
+    </header>
+    <main>
+        {% block content %}
+            <h2>Welcome to your Flashcards app!</h2>
+        {% endblock content %}
+    </main>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+</body>
+
+</html>
